@@ -19,7 +19,7 @@
          [[com.cemerick/piggieback "0.1.6-SNAPSHOT"]
           [weasel "0.6.0"]]
          :plugins
-         [[com.cemerick/clojurescript.test "0.2.3-SNAPSHOT"]]
+         ^:displace [[com.cemerick/clojurescript.test "0.2.3-SNAPSHOT"]]
          :repl-options
          {:nrepl-middleware [cemerick.piggieback/wrap-cljs-repl]}}}
 
